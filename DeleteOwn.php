@@ -25,11 +25,14 @@
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'DeleteOwn',
-	'description' => 'Allows users to delete young pages they authored',
+	'descriptionmsg' => 'deleteown-desc',
 	'version' => 1.0,
 	'author' => 'Tyler Romeo <tylerromeo@gmail.com>',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn'
 );
+
+$dir = __DIR__ . '/';
+$wgExtensionMessagesFiles['DeleteOwn'] = $dir . 'DeleteOwn.i18n.php';
 
 /**
  * The expiry for when a page can no longer be deleted by its author.
