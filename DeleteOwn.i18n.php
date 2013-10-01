@@ -27,6 +27,14 @@ $messages['qqq'] = array(
 	'right-deleteown' => '{{doc-right|deleteown}}',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'deleteown-desc' => 'Permite a los usuarios desaniciar les páxines que crearon hai poco tiempu',
+	'right-deleteown' => 'Desaniciar páxines propies',
+);
+
 /** Bengali (বাংলা)
  * @author Aftab1995
  */
@@ -50,12 +58,21 @@ $messages['de'] = array(
 	'right-deleteown' => 'Eigene Seiten löschen',
 );
 
+/** Spanish (español)
+ * @author Fitoschido
+ */
+$messages['es'] = array(
+	'deleteown-desc' => 'Permite a los usuarios eliminar páginas que han creado recientemente',
+	'right-deleteown' => 'Eliminar páginas propias',
+);
+
 /** Finnish (suomi)
+ * @author Nike
  * @author Pxos
  * @author Stryn
  */
 $messages['fi'] = array(
-	'deleteown-desc' => 'Antaa käyttäjien poistaa uudet sivut, jotka he itse ovat luoneet',
+	'deleteown-desc' => 'Käyttäjät voivat itse poistaa luomiansa uusia sivuja',
 	'right-deleteown' => 'Poistaa omia sivuja',
 );
 
@@ -73,6 +90,14 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'deleteown-desc' => 'Permite aos usuarios borrar as páxinas que crearon recentemente',
 	'right-deleteown' => 'Borrar páxinas propias',
+);
+
+/** Interlingua (interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'deleteown-desc' => 'Permitte al usatores deler paginas nove de que illes es le autor',
+	'right-deleteown' => 'Deler proprie paginas',
 );
 
 /** Italian (italiano)
