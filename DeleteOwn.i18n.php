@@ -179,6 +179,14 @@ $messages['ru'] = array(
 	'right-deleteown' => 'Удалять собственные страницы',
 );
 
+/** Slovenian (slovenščina)
+ * @author Eleassar
+ */
+$messages['sl'] = array(
+	'deleteown-desc' => 'Omogoča uporabnikom izbris novih strani, ki so jih ustvarili',
+	'right-deleteown' => 'Izbris lastnih strani',
+);
+
 /** Swedish (svenska)
  * @author Jopparn
  */
