@@ -123,6 +123,14 @@ $messages['kk-cyrl'] = array(
 	'right-deleteown' => 'Өзіңіздің беттеріңізді жою',
 );
 
+/** Korean (한국어)
+ * @author Hym411
+ */
+$messages['ko'] = array(
+	'deleteown-desc' => '자신이 갓 작성한 문서를 지울 수 있도록 허용',
+	'right-deleteown' => '자신의 문서 삭제',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
