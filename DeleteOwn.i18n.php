@@ -47,6 +47,7 @@ $messages['bn'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
+	'deleteown-desc' => "Yn galluogi defnyddwyr i ddileu tudalennau newydd o'u gwaith eu hunain chwap wedyn",
 	'right-deleteown' => "Dileu tudalennau o'i wneuthuriad ei hunan",
 );
 
