@@ -156,6 +156,13 @@ $messages['nl'] = array(
 	'right-deleteown' => "Eigen pagina's verwijderen",
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'right-deleteown' => 'Suprimir sas pròprias paginas',
+);
+
 /** Polish (polski)
  * @author Ty221
  */
