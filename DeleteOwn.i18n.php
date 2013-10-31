@@ -160,6 +160,7 @@ $messages['nl'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'deleteown-desc' => 'Permet als utilizaires de suprimir las paginas recentas que ne son l’autor',
 	'right-deleteown' => 'Suprimir sas pròprias paginas',
 );
 
