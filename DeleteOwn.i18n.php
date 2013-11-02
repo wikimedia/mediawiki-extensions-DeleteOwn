@@ -180,6 +180,14 @@ $messages['ps'] = array(
 	'right-deleteown' => 'خپل مخونه ړنگول',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'deleteown-desc' => 'Permite aos usuários eliminar páginas que criaram recentemente',
+	'right-deleteown' => 'Eliminar páginas próprias',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
