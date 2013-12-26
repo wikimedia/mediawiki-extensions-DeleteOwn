@@ -59,6 +59,14 @@ $messages['de'] = array(
 	'right-deleteown' => 'Eigene Seiten löschen',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'deleteown-desc' => 'Zmóžnja wužywarjam, swóje njedawno spisane boki wulašowaś',
+	'right-deleteown' => 'Swójske boki wulašowaś',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  */
@@ -91,6 +99,14 @@ $messages['fr'] = array(
 $messages['gl'] = array(
 	'deleteown-desc' => 'Permite aos usuarios borrar as páxinas que crearon recentemente',
 	'right-deleteown' => 'Borrar páxinas propias',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'deleteown-desc' => 'Zmóžnja wužiwarjam, swoje njedawno spisane strony zhašeć',
+	'right-deleteown' => 'Swójske strony zhašeć',
 );
 
 /** Interlingua (interlingua)
