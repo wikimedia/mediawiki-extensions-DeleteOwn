@@ -142,9 +142,10 @@ $messages['kk-cyrl'] = array(
 
 /** Korean (한국어)
  * @author Hym411
+ * @author 아라
  */
 $messages['ko'] = array(
-	'deleteown-desc' => '자신이 갓 작성한 문서를 지울 수 있도록 허용',
+	'deleteown-desc' => '자신이 갓 작성한 문서를 삭제할 수 있습니다',
 	'right-deleteown' => '자신의 문서 삭제',
 );
 
