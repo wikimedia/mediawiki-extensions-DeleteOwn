@@ -75,6 +75,14 @@ $messages['es'] = array(
 	'right-deleteown' => 'Eliminar páginas propias',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'deleteown-desc' => 'اجازهٔ به کاربرانی که مجاز به حذف صفحات نوپا هستند',
+	'right-deleteown' => 'حذف صفحات خود',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Pxos
