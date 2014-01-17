@@ -43,6 +43,13 @@ $messages['bn'] = array(
 	'right-deleteown' => 'নিজস্ব পাতাগুলি মুছে ফেলুন',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'right-deleteown' => 'Dilemel pajennoù an unan',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
