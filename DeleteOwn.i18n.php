@@ -260,6 +260,13 @@ $messages['uk'] = array(
 	'right-deleteown' => 'Видалити власні сторінки',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Withoutaname
+ */
+$messages['vi'] = array(
+	'right-deleteown' => 'Tự xóa trang cá nhân',
+);
+
 /** Simplified Chinese (中文（简体）‎)
  * @author Liuxinyu970226
  */
