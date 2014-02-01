@@ -261,10 +261,11 @@ $messages['uk'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
  * @author Withoutaname
  */
 $messages['vi'] = array(
-	'right-deleteown' => 'Tự xóa trang cá nhân',
+	'right-deleteown' => 'Xóa trang cá nhân của mình',
 );
 
 /** Simplified Chinese (中文（简体）‎)
