@@ -47,6 +47,7 @@ $messages['bn'] = array(
  * @author Fohanno
  */
 $messages['br'] = array(
+	'deleteown-desc' => 'Aotren an implijerien da dilemel pajennoù nevez krouet ganto',
 	'right-deleteown' => 'Dilemel pajennoù an unan',
 );
 
