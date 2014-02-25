@@ -117,6 +117,14 @@ $messages['gl'] = array(
 	'right-deleteown' => 'Borrar páxinas propias',
 );
 
+/** Hebrew (עברית)
+ * @author Yona b
+ */
+$messages['he'] = array(
+	'deleteown-desc' => 'מאפשר למשתמשים למחוק דפים חדשים שהם כתבו',
+	'right-deleteown' => 'מחיקת דפים שלו',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
