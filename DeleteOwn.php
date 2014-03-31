@@ -26,12 +26,13 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'DeleteOwn',
 	'descriptionmsg' => 'deleteown-desc',
-	'version' => 1.0,
+	'version' => '1.1.0',
 	'author' => 'Tyler Romeo <tylerromeo@gmail.com>',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn'
 );
 
 $dir = __DIR__ . '/';
+$wgMessagesDirs['DeleteOwn'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['DeleteOwn'] = $dir . 'DeleteOwn.i18n.php';
 
 /**

@@ -1,0 +1,9 @@
+{
+    "@metadata": {
+        "authors": [
+            "Gomoko"
+        ]
+    },
+    "deleteown-desc": "Permet aux utilisateurs de supprimer les pages récentes dont ils sont l’auteur",
+    "right-deleteown": "Supprimer ses propres pages"
+}
