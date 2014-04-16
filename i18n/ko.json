@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Hym411",
-            "아라"
-        ]
-    },
-    "deleteown-desc": "자신이 갓 작성한 문서를 삭제할 수 있습니다",
-    "right-deleteown": "자신의 문서 삭제"
+	"@metadata": {
+		"authors": [
+			"Hym411",
+			"아라"
+		]
+	},
+	"deleteown-desc": "자신이 갓 작성한 문서를 삭제할 수 있습니다",
+	"right-deleteown": "자신의 문서 삭제"
 }

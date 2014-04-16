@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fitoschido"
-        ]
-    },
-    "deleteown-desc": "Permite a los usuarios eliminar páginas que han creado recientemente",
-    "right-deleteown": "Eliminar páginas propias"
+	"@metadata": {
+		"authors": [
+			"Fitoschido"
+		]
+	},
+	"deleteown-desc": "Permite a los usuarios eliminar páginas que han creado recientemente",
+	"right-deleteown": "Eliminar páginas propias"
 }

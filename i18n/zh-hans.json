@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226"
-        ]
-    },
-    "deleteown-desc": "允许用户删除他们刚刚建立的页面",
-    "right-deleteown": "删除自己的页面"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"deleteown-desc": "允许用户删除他们刚刚建立的页面",
+	"right-deleteown": "删除自己的页面"
 }

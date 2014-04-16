@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "deleteown-desc": "自身が作成して間もないページを利用者が削除できるようにする",
-    "right-deleteown": "自身のページを削除"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"deleteown-desc": "自身が作成して間もないページを利用者が削除できるようにする",
+	"right-deleteown": "自身のページを削除"
 }

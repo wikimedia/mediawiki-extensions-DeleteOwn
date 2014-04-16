@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Andriykopanytsia"
-        ]
-    },
-    "deleteown-desc": "Дозволяє користувачам видалити молоді сторінки, яких вони є автором",
-    "right-deleteown": "Видалити власні сторінки"
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia"
+		]
+	},
+	"deleteown-desc": "Дозволяє користувачам видалити молоді сторінки, яких вони є автором",
+	"right-deleteown": "Видалити власні сторінки"
 }

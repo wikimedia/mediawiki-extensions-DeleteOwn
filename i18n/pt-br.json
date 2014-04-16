@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cainamarques"
-        ]
-    },
-    "deleteown-desc": "Permite aos usuários eliminar páginas que criaram recentemente",
-    "right-deleteown": "Eliminar páginas próprias"
+	"@metadata": {
+		"authors": [
+			"Cainamarques"
+		]
+	},
+	"deleteown-desc": "Permite aos usuários eliminar páginas que criaram recentemente",
+	"right-deleteown": "Eliminar páginas próprias"
 }

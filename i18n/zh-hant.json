@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226"
-        ]
-    },
-    "deleteown-desc": "允許使用者刪除其新近建立之頁面",
-    "right-deleteown": "刪除其頁面"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"deleteown-desc": "允許使用者刪除其新近建立之頁面",
+	"right-deleteown": "刪除其頁面"
 }

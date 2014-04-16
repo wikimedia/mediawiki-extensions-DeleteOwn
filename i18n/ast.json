@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Xuacu"
-        ]
-    },
-    "deleteown-desc": "Permite a los usuarios desaniciar les páxines que crearon hai poco tiempu",
-    "right-deleteown": "Desaniciar páxines propies"
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"deleteown-desc": "Permite a los usuarios desaniciar les páxines que crearon hai poco tiempu",
+	"right-deleteown": "Desaniciar páxines propies"
 }

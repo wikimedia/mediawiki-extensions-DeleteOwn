@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jopparn"
-        ]
-    },
-    "deleteown-desc": "Tillåter användare att ta bort unga sidor de författat",
-    "right-deleteown": "Ta bort egna sidor"
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"deleteown-desc": "Tillåter användare att ta bort unga sidor de författat",
+	"right-deleteown": "Ta bort egna sidor"
 }
