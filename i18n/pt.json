@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio"
+		]
+	},
+	"deleteown-desc": "Permite aos utilizadores eliminar páginas que eles criaram recentemente",
+	"right-deleteown": "Eliminar páginas próprias"
+}
