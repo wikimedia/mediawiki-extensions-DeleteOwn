@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Purodha"
 		]
 	},
-	"deleteown-desc": "Erlaabt et Benotzer Säiten ze läschen déi si viru kuerzem gemaach hunn ze läschen",
+	"deleteown-desc": "Erlaabt et Benotzer Säiten ze läschen déi si viru kuerzem gemaach hunn",
 	"right-deleteown": "Eege Säite läschen"
 }
