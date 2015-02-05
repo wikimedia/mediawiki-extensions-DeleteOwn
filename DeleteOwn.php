@@ -2,10 +2,11 @@
 
 /**
  * Implements Extension:DeleteOwn for the MediaWiki software.
+ * Copyright (C) 2014-2015  Tyler Romeo <tylerromeo@gmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
+ * the Free Software Foundation; either version 3 of the License, or
  * (at your option) any later version.
  *
  * This program is distributed in the hope that it will be useful,
@@ -28,7 +29,8 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'deleteown-desc',
 	'version' => '1.1.0',
 	'author' => 'Tyler Romeo <tylerromeo@gmail.com>',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn'
+	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn',
+	'license-name' => 'GPL-3.0+',
 );
 
 $dir = __DIR__ . '/';
