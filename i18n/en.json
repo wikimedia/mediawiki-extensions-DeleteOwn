@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Tyler Romeo"
-        ]
-    },
-    "deleteown-desc": "Allows users to delete young pages they authored",
-    "right-deleteown": "Delete own pages"
+	"@metadata": {
+		"authors": [
+			"Tyler Romeo"
+		]
+	},
+	"deleteown-desc": "Allows users to delete young pages they authored",
+	"right-deleteown": "Delete own pages"
 }
