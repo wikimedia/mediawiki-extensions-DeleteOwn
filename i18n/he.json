@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yona b"
+			"Yona b",
+			"Guycn2"
 		]
 	},
 	"deleteown-desc": "מאפשר למשתמשים למחוק דפים חדשים שהם כתבו",
-	"right-deleteown": "מחיקת דפים שלו"
+	"right-deleteown": "מחיקת דפים של המשתמש עצמו"
 }
