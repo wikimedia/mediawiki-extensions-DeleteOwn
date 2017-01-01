@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"deleteown-desc": "Lar brukere slette nye sider de har opprettet",
+	"right-deleteown": "Slette egne sider"
+}
