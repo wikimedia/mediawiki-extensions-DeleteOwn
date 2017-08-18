@@ -21,21 +21,32 @@
  *
  * @ingroup Extensions
  * @file
+ *
+ * @author Tyler Romeo (Parent5446) <tylerromeo@gmail.com>
+ * @license https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0 or later
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki.
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'This is an extension to MediaWiki and cannot be run standalone.' );
+}
+
+// Display extension properties on MediaWiki.
 $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'DeleteOwn',
 	'descriptionmsg' => 'deleteown-desc',
-	'version' => '1.1.0',
-	'author' => 'Tyler Romeo <tylerromeo@gmail.com>',
+	'version' => '1.2.0',
+	'author' => array(
+		'Tyler Romeo',
+		'...'
+	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn',
-	'license-name' => 'GPL-3.0+',
+	'license-name' => 'GPL-3.0+'
 );
 
-$dir = __DIR__ . '/';
+// Register extension messages and other localisation.
 $wgMessagesDirs['DeleteOwn'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['DeleteOwn'] = $dir . 'DeleteOwn.i18n.php';
 
 /**
  * The expiry for when a page can no longer be deleted by its author.
