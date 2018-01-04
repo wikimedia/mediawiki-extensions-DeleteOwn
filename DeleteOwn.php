@@ -42,7 +42,7 @@ $wgExtensionCredits['other'][] = array(
 		'...'
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn',
-	'license-name' => 'GPL-3.0+'
+	'license-name' => 'GPL-3.0-or-later'
 );
 
 // Register extension messages and other localisation.
