@@ -23,7 +23,7 @@
  * @file
  *
  * @author Tyler Romeo (Parent5446) <tylerromeo@gmail.com>
- * @license https://www.gnu.org/licenses/gpl-3.0.html GNU General Public License 3.0 or later
+ * @license https://www.gnu.org/licenses/gpl-3.0.html GPL-3.0-or-later
  */
 
 // Ensure that the script cannot be executed outside of MediaWiki.
@@ -32,18 +32,18 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 // Display extension properties on MediaWiki.
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path' => __FILE__,
 	'name' => 'DeleteOwn',
 	'descriptionmsg' => 'deleteown-desc',
 	'version' => '1.2.0',
-	'author' => array(
+	'author' => [
 		'Tyler Romeo',
 		'...'
-	),
+	],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:DeleteOwn',
 	'license-name' => 'GPL-3.0-or-later'
-);
+];
 
 // Register extension messages and other localisation.
 $wgMessagesDirs['DeleteOwn'] = __DIR__ . '/i18n';
@@ -72,7 +72,7 @@ Hooks::register( 'TitleQuickPermissions',
 	 * @param bool $doExpensiveQueries Whether to do expensive DB queries
 	 * @return bool False (to stop permissions checks) if user is allowed to delete
 	 */
-	function( Title $title, User $user, $action, array &$errors, $doExpensiveQueries ) {
+	function ( Title $title, User $user, $action, array &$errors, $doExpensiveQueries ) {
 		global $wgDeleteOwnExpiry;
 
 		// If not on the delete action, or if the user can delete normally, return.
@@ -111,7 +111,7 @@ Hooks::register( 'TitleQuickPermissions',
 			return false;
 		}
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 
 		// Only bother changing the expiry if different namespaces have different expiries.
 		if ( is_array( $wgDeleteOwnExpiry ) ) {
@@ -119,13 +119,13 @@ Hooks::register( 'TitleQuickPermissions',
 			$previousNs = $dbr->select(
 				'logging',
 				'log_namespace',
-				array(
+				[
 					'log_type' => 'move',
 					'log_page' => $title->getArticleId(),
 					$dbr->addIdentifierQuotes( 'log_namespace' ) . ' != ' . $dbr->addQuotes( $title->getNamespace() )
-				),
+				],
 				'hook-DeleteOwn',
-				array( 'DISTINCT' )
+				[ 'DISTINCT' ]
 			);
 
 			// If the page was moved, use the lowest expiry that isn't disabled.
@@ -152,39 +152,39 @@ Hooks::register( 'TitleQuickPermissions',
 			$hasOtherAuthors = (bool)$dbr->selectField(
 				'revision',
 				'rev_user',
-				array(
+				[
 					'rev_page' => $title->getArticleId(),
 					$dbr->addIdentifierQuotes( 'rev_user_text' ) . ' != ' . $dbr->addQuotes( $user->getName() ),
 					'rev_minor_edit' => 0,
-				),
+				],
 				'hook-DeleteOwn'
 			);
 		} else {
 			$hasOtherAuthors = (bool)$dbr->select(
-				array( 'revision', 'user_groups' ),
-				array(
+				[ 'revision', 'user_groups' ],
+				[
 					'rev_user',
 					'COUNT(' . $dbr->addIdentifierQuotes( 'ug_group' ) . ')'
-				),
-				array(
+				],
+				[
 					'rev_page' => $title->getArticleId(),
 					$dbr->addIdentifierQuotes( 'rev_user_text' ) . ' != ' . $dbr->addQuotes( $user->getName() ),
 					'rev_minor_edit' => 0,
-				),
+				],
 				'hook-DeleteOwn',
-				array(
+				[
 					'LIMIT' => 1,
 					'GROUP BY' => 'rev_user',
-					'HAVING' => array(
+					'HAVING' => [
 						'COUNT(' . $dbr->addIdentifierQuotes( 'ug_group' ) . ')' => 0
-					)
-				),
-				array(
-					'user_groups' => array( 'LEFT JOIN', array(
+					]
+				],
+				[
+					'user_groups' => [ 'LEFT JOIN', [
 						$dbr->addIdentifierQuotes( 'ug_user' ) . '=' . $dbr->addIdentifierQuotes( 'rev_user' ),
 						'ug_group' => User::getGroupsWithPermission( 'bot' ),
-					) )
-				)
+					] ]
+				]
 			)->numRows();
 		}
 
