@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
 	"deleteown-desc": "允許使用者刪除其新近建立之頁面",
+	"action-deleteown": "刪除自己的頁面",
 	"right-deleteown": "刪除其頁面"
 }
