@@ -6,5 +6,6 @@
 		]
 	},
 	"deleteown-desc": "Permite que os utilizadores eliminem páginas recentes criadas por eles",
+	"action-deleteown": "eliminar páginas próprias",
 	"right-deleteown": "Eliminar páginas próprias"
 }
