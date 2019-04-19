@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simeon Dahl"
+			"Simeon Dahl",
+			"Saederup92"
 		]
 	},
 	"deleteown-desc": "Tillader brugere at slette unge sider de selv oprettede",
+	"action-deleteown": "slet egne sider",
 	"right-deleteown": "Slet egne sider"
 }
