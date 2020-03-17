@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Andriykopanytsia",
-			"Vlad5250"
+			"Vlad5250",
+			"Piramidion"
 		]
 	},
 	"deleteown-desc": "Дозволяє користувачам видалити молоді сторінки, яких вони є автором",
 	"action-deleteown": "видалення власних сторінок",
-	"right-deleteown": "Видалити власні сторінки"
+	"right-deleteown": "Видалення власних сторінок"
 }
