@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
-			"Movses"
+			"Movses",
+			"Okras"
 		]
 	},
 	"deleteown-desc": "Позволяет пользователям удалять свежие страницы, которые они создали",
