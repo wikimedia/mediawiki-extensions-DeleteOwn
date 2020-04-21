@@ -62,4 +62,4 @@ $wgAvailableRights[] = 'deleteown';
 
 $wgAutoloadClasses['ExtDeleteOwn'] = __DIR__ . '/ExtDeleteOwn.php';
 
-Hooks::register( 'TitleQuickPermissions', 'ExtDeleteOwn::onTitleQuickPermissions' );
+$wgHooks['TitleQuickPermissions'][] = 'ExtDeleteOwn::onTitleQuickPermissions';
