@@ -12,7 +12,13 @@ class ExtDeleteOwn {
 	 * @param bool $doExpensiveQueries Whether to do expensive DB queries
 	 * @return bool False (to stop permissions checks) if user is allowed to delete
 	 */
-	public static function onTitleQuickPermissions( Title $title, User $user, $action, array &$errors, $doExpensiveQueries ) {
+	public static function onTitleQuickPermissions(
+		Title $title,
+		User $user,
+		$action,
+		array &$errors,
+		$doExpensiveQueries
+	) {
 		global $wgDeleteOwnExpiry;
 
 		// If not on the delete action, or if the user can delete normally, return.
