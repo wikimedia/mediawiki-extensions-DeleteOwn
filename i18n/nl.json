@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Southparkfan"
+			"Southparkfan",
+			"Romaine"
 		]
 	},
 	"deleteown-desc": "Laat gebruikers pagina's verwijderen waarvan zij de auteur zijn.",
+	"action-deleteown": "eigen pagina's verwijderen",
 	"right-deleteown": "Eigen pagina's verwijderen"
 }
