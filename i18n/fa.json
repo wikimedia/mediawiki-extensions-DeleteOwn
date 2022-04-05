@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Armin1392",
-			"Jeeputer"
+			"Jeeputer",
+			"Beginneruser"
 		]
 	},
 	"deleteown-desc": "اجازهٔ به کاربرانی که مجاز به حذف صفحات نوپا هستند",
 	"action-deleteown": "حذف صفحه‌های خود",
-	"right-deleteown": "حذف صفحات خود"
+	"right-deleteown": "حذف صفحه‌های خود"
 }
