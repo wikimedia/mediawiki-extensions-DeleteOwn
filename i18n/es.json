@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"DiegoAmbrocio"
 		]
 	},
 	"deleteown-desc": "Permite a los usuarios eliminar páginas que han creado recientemente",
+	"action-deleteown": "eliminar las páginas propias",
 	"right-deleteown": "Eliminar páginas propias"
 }
