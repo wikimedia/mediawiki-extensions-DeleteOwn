@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Pols12"
+			"Pols12",
+			"Verdy p"
 		]
 	},
-	"deleteown-desc": "Permet aux utilisateurs de supprimer les pages récentes dont ils sont l’auteur",
+	"deleteown-desc": "Permet aux utilisateurs de supprimer des pages récentes qu’ils ont créées.",
 	"action-deleteown": "supprimer vos propres pages",
 	"right-deleteown": "Supprimer ses propres pages"
 }
