@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class ExtDeleteOwn {
 
 	/**
@@ -92,7 +95,7 @@ class ExtDeleteOwn {
 
 		// Check if anybody else other than bots have made
 		// non-minor edits to the page.
-		$botGroups = User::getGroupsWithPermission( 'bot' );
+		$botGroups = MediaWikiServices::getInstance()->getGroupPermissionsLookup()->getGroupsWithPermission( 'bot' );
 		if ( !$botGroups ) {
 			// No need to do complicated join if there are no bot groups.
 			$hasOtherAuthors = (bool)$dbr->selectField(
@@ -128,7 +131,7 @@ class ExtDeleteOwn {
 				[
 					'user_groups' => [ 'LEFT JOIN', [
 						$dbr->addIdentifierQuotes( 'ug_user' ) . '=' . $dbr->addIdentifierQuotes( 'rev_user' ),
-						'ug_group' => User::getGroupsWithPermission( 'bot' ),
+						'ug_group' => $botGroups,
 					] ]
 				]
 			)->numRows();
