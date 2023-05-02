@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Eitvys200"
+			"Eitvys200",
+			"Nokeoo"
 		]
 	},
 	"deleteown-desc": "Leidžia vartotojams ištrinti jaunus puslapius, kuriuos jie sukūrė",
+	"action-deleteown": "ištrinti savo puslapius",
 	"right-deleteown": "Trinti savo puslapius"
 }
