@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"deleteown-desc": "Omogućuje korisnicima brisanje njihovih novostvorenih stranica",
+	"action-deleteown": "brisanje svojih stranica",
+	"right-deleteown": "Brisanje vlastitih stranica"
+}
