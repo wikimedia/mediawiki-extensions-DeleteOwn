@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Milicevic01"
+		]
+	},
+	"deleteown-desc": "Омогућава корисницима да бришу младе странице које су направили",
+	"action-deleteown": "бришете своје странице",
+	"right-deleteown": "брисање сопствених страница"
+}
